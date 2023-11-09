@@ -172,6 +172,12 @@ console.log( str );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/strided-base/unary-signature-callbacks`][@stdlib/strided/base/unary-signature-callbacks]</span><span class="delimiter">: </span><span class="description">assign callbacks to unary interfaces according to type promotion rules.</span>
+
 </section>
 
 <!-- /.related -->
@@ -245,9 +251,15 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/strided-base-unary-dtype-signatures/main/LICENSE
 
-[@stdlib/strided/dtypes]: https://github.com/stdlib-js/stdlib
+[@stdlib/strided/dtypes]: https://github.com/stdlib-js/strided-dtypes
 
-[@stdlib/ndarray/promotion-rules]: https://github.com/stdlib-js/stdlib
+[@stdlib/ndarray/promotion-rules]: https://github.com/stdlib-js/ndarray-promotion-rules
+
+<!-- <related-links> -->
+
+[@stdlib/strided/base/unary-signature-callbacks]: https://github.com/stdlib-js/strided-base-unary-signature-callbacks
+
+<!-- </related-links> -->
 
 </section>
 
