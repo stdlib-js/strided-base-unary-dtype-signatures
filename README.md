@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import signatures from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-unary-dtype-signatures@deno/mod.js';
+import signatures from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-unary-dtype-signatures@v0.2.3-deno/mod.js';
 ```
 
 #### signatures( dtypes1, dtypes2\[, options] )
@@ -127,7 +127,7 @@ var sigs = signatures( dtypes, dtypes, options );
 ```javascript
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-dtypes@deno/mod.js';
 import replace from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-replace@deno/mod.js';
-import signatures from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-unary-dtype-signatures@deno/mod.js';
+import signatures from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-unary-dtype-signatures@v0.2.3-deno/mod.js';
 
 // Get the list of supported strided array data types:
 var dt = dtypes();
