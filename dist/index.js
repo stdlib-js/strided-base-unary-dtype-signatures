@@ -1,0 +1,5 @@
+"use strict";var m=function(a,r){return function(){try{return r||a((r={exports:{}}).exports,r),r.exports}catch(n){throw (r=0, n)}};};var p=m(function(x,c){
+var q=require('@stdlib/ndarray-safe-casts/dist'),d=require('@stdlib/strided-base-dtype-resolve-enum/dist'),E=require('@stdlib/strided-base-dtype-resolve-str/dist'),b=require('@stdlib/error-tools-fmtprodmsg/dist');function k(a,r){var n,e,u,s,o,t,i;for(e=a.length,u=r.length,n=[],i=0,o=0;o<e&&!(i>=u);o++)for(s=a[o],t=i;t<u;t++)if(s===r[t]){i=t+1,n.push(s);break}return n}function g(a){var r,n,e;for(r=[],e=0;e<a.length;e++){if(n=E(a[e]),n===null)return new TypeError(b('1fVDj',a[e]));r.push(n)}return r}function w(a,r,n){var e,u,s,o,t,i,l,h,v,f;if(arguments.length>2?u=n:u={},t=g(a),t instanceof Error)throw t;if(r===a)i=t;else if(i=g(r),i instanceof Error)throw i;for(i.sort(),h=t.length,o=[],v=0;v<h;v++)if(l=t[v],e=q(l),e!==null)for(e=k(i,e.sort()),f=0;f<e.length;f++)o.push(l,e[f]);if(u.enums){for(s=[],v=0;v<o.length;v++)s.push(d(o[v]));o=s}return o}c.exports=w
+});var M=p();module.exports=M;
+/** @license Apache-2.0 */
+//# sourceMappingURL=index.js.map
